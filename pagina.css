@@ -1,0 +1,133 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: grey;
+}
+
+header{
+    height: 322px;
+    position: relative;
+}
+
+h2{
+    color: #e74c3c; 
+    font-size: 14px;
+    margin-top: 4px;
+
+}
+p{ 
+    color: grey;
+    line-height: 2;
+    font-size: 13px;
+    
+}
+
+article{
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 181px;
+}
+
+
+section{
+height: 503px;
+width: 350px;    
+margin: auto;
+background: white;
+position: relative;
+box-sizing: border-box;
+transition: all 0,5s linear;
+}
+
+.card:hover .texto{
+    display: block;
+    
+}
+.card:hover article{
+    height: 281px;
+    position: absolute;
+    background-color: white;
+}
+
+.card:hover{
+    box-shadow: #e74c3c
+}
+
+.card:hover .overlay{
+    opacity: 0.5;
+}
+
+.card:hover header{
+    height: 222px;
+}
+
+
+.contenedor{
+    position: relative;
+    top: 8px;
+    left: 17px;
+}
+
+.numero{
+    font-size: 13px;
+    color: white;
+    position: absolute;
+    font-weight: bold;
+}
+
+.mar{
+    font-size:10px;
+    color: white;
+    position: absolute;
+    top: 16px;
+    right:30px;
+}
+
+
+.circulo{
+    border-radius: 50%;
+    background-color:#e74c3c;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    box-sizing: border-box;
+    color: white;
+
+}
+.rectangulo{
+    height: 25px;
+    width: 70px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    background: #e74c3c;
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    bottom: 245px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+ 
+}
+
+
+
+footer{
+    font-size: 10px;
+    color: grey;
+    padding-left: 10px;
+    margin-top: 7px;
+
+
+}
+
+i{
+    margin:10px;
+}
+
+
+
